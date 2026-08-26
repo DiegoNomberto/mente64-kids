@@ -1,22 +1,29 @@
-Mente64 Kids V0.1 - Proyecto Expo
+Mente64 Kids V2
+================
+Versión de prueba 0.2.0.
 
-OBJETIVO
-Proyecto listo para conectar a Expo/EAS y generar un APK de prueba.
+Incluye:
+- Dashboard dinámico
+- Aprender / clases
+- Reproductor de clase
+- Retos
+- Duelo
+- Duelo contra computadora (flujo de prueba)
+- Progreso
+- Perfil
+- Navegación inferior elevada dentro del área segura
+- Identidad visual Mente64 integrada
 
-ACCESO DEMO
+Credenciales demo:
 Usuario: M64-0001
 Contraseña: A7K9P2
 
-INCLUYE
-- Login Mente64
-- Inicio
-- Aprender / Cursos
-- Retos
-- Duelo vs computadora (prototipo visual)
-- Duelo vs alumno (preparado para V0.2)
-- Progreso e insignias
-- Perfil
-- Configuración EAS para generar APK mediante el perfil "preview"
+Build APK:
+npm install
+npx eas-cli build --platform android --profile preview
 
-SIGUIENTE FASE
-V0.2: conexión con Mente64 Admin + backend compartido.
+
+IDENTIDAD V2 FINAL:
+- assets/mente64-logo.png: logo oficial recortado del material enviado por el usuario.
+- assets/icon.png: icono cuadrado oficial caballo + 64.
+- assets/adaptive-icon.png: icono Android con margen seguro.
