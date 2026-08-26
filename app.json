@@ -2,23 +2,24 @@
   "expo": {
     "name": "Mente64 Kids",
     "slug": "mente64-kids",
-    "version": "0.2.0",
+    "owner": "nombertofloress-team",
+    "version": "0.2.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "scheme": "mente64",
+    "scheme": "mente64kids",
     "splash": {
-      "image": "./assets/icon.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#061f3c"
+      "backgroundColor": "#061F3C"
     },
     "android": {
+      "package": "com.mente64.kids",
+      "versionCode": 3,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#061f3c"
-      },
-      "package": "com.mente64.kids",
-      "versionCode": 2
+        "backgroundColor": "#061F3C"
+      }
     },
     "assetBundlePatterns": [
       "**/*"
